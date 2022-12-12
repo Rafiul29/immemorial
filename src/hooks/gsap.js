@@ -68,13 +68,13 @@ export const useGsapPhotoLevitate = (arr, trig) => {
     },
     {
       y: "-35%",
-      ease: Expo.easeInOut,
-      scrollTrigger: {
-        trigger: trig.current,
-        scrub: 1,
-        toggleActions: "play reverse play reverse",
-      },
+      ease:Expo.easeInOut,
+      scrollTrigger:{
+        trigger:trig.current,
+        scrub:1,
+        toggleActions:"play reverse play reverse"
+      }
     }
-  );
+   )
   }, []);
 };
